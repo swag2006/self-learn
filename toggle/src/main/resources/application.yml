@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: toggle
+
+
+togglz:
+  features:
+    FEATURE_ONE:
+      enabled: true
+    FEATURE_TWO:
+        enabled: false
+
+  console:
+    enabled: true
+    path: /togglz-console  # Customize the access path if needed
+    users:
+      admin: your_admin_password
